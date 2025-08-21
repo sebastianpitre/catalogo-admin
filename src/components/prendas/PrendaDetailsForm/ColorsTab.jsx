@@ -148,7 +148,7 @@ export default function ColorsTab({
             <h5 className="text-bold">Seleccionar colores</h5>
           </div>
 
-          {hasPermission(user, "add_colorprenda") && (
+          {hasPermission(user, "add_color") && (
             <div className="col text-end mt-2" style={{ maxWidth: "125px" }}>
               <button
                 className="btn btn-sm bg-lunalu"
